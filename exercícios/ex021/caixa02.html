@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(51, 51, 51);
+            padding: 5px;
+            box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.336);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 100px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article {
+            color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        article > section {
+            background-color: lightgray;
+            color: black;
+            padding: 5px;
+        }
+
+        main > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <p><a href="#">Esportes</a> <a href="#">Tecnologia no Brasil</a> <a href="#">e-sports</a></p>
+            </article>
+        </section>
+        <article id="noticias">
+            <section>
+                <h2>Noticias de e-sports</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim placeat ex maiores tempore autem sequi voluptatem cum. Tempora vel temporibus, illo illum doloribus error possimus delectus dolorem id sit saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis incidunt et corporis voluptatibus. Corrupti error tenetur, reprehenderit possimus obcaecati, fugiat tempore recusandae laudantium quae dicta magni ipsam necessitatibus architecto!</p>
+            </section>
+        </article>
+        <aside>Texto escrito por Visual Studio Code</aside>
+    </main>
+    <footer>
+        <p>Site em oferecimento de França</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
