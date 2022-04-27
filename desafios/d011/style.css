@@ -2,11 +2,8 @@
 
 body {
     height: 95vh;
-    background-image: url(imagens/espaco.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
     background-size: 1400px 620px;
-    background-attachment: fixed;
+    background: url(imagens/espaco.jpg) no-repeat center center fixed;
 }
 
 div {
